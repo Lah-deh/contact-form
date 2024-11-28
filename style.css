@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white ;
+    
+   
+}
+
+
+.container{
+    height: 100vh;
+    border-style: solid;
+    border-width: 1em 27em 1em 27em;
+    border-color:  rgb(199, 221, 214);
+    
+    
+}
+
+.con h2 {
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.row1 {
+    display: flex;
+    gap: 40px;
+    padding-left: 30px;
+}
+.name, .nam{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    padding-top: 30px;
+}
+.row1 input {
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+}
+.row2{
+    display: flex;
+    gap: 40px;
+    padding-left: 30px;
+}
+.row2 input{
+    width: 580px;
+    height: 40px;
+    border-radius: 10px;
+}
+.row3 {
+    /* display: flex; */
+    gap: 40px;
+    padding-left: 30px;
+}
+.re {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 30px ;
+    width: 270px;
+    height: 40px;
+    padding-top: 10px;
+}
+.ree {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 40px;
+    padding-left: 30px;
+    
+}
+.radio{
+    display: flex;
+}
+
+.row4{
+    display: flex;
+    gap: 40px;
+    padding-left: 30px;
+}
+.row4 input{
+    width: 580px;
+    height: 100px;
+    border-radius: 10px;
+   
+    
+}
+.sel {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.but {
+    background-color: rgb(45, 169, 169);
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+}
+
+.ber {
+    padding-left: 270px;
+    
+}
+
+
+@media (max-width: 768px){
+    body {
+        background-color: white;
+    }
+    .container{
+        height: 100vh;
+        border-style: solid;
+        border-width: 30px 90px 30px 90px;
+        border-color:  rgb(199, 221, 214);
+        
+        
+    }
+    .con h2{
+        padding-top: 10px;
+    }
+    label {
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .row1 input{
+        width: 230px;
+    }
+    .row2 input{
+        width: 500px;
+    }
+    .re{
+        width: 230px;
+    }
+    .ree{
+        width: 230px;
+    }
+    .row4 input{
+        width: 500px;
+    }
+    
+    
+}
+
+@media (max-width: 480px){
+    body{
+        height: 100vh;
+        background-color: white;
+    }
+    .container{
+        height: 100vh;
+        border-style: solid;
+        border-width: 9px 60px 9px 60px;
+        border-color:  rgb(199, 221, 214);
+        
+        
+    }
+    .row1{
+        flex-direction: column;
+        gap: 2px;
+        
+    }
+    .row1 input{
+        height: 37px;
+    }
+    .row2 input{
+        width: 230px;
+        height: 37px;
+    }
+    
+    
+    .radio{
+        display: flex;
+        flex-direction: column;
+    }
+    .ree{
+        margin-left: 3px;
+    }
+    .row4 input{
+        width: 230px;
+        height: 40px;
+    }
+    .sel{
+        padding-top: 15px;
+    }
+    .ber{
+        padding-left: 90px;
+    }
+    
+    
+}
+@media (max-width: 380px){
+    .container{
+        height: 100vh;
+        border-style: solid;
+        border-width: 9px 50px 9px 50px;
+        border-color:  rgb(199, 221, 214);
+        
+        
+    }
+}
+@media (max-width: 330px){
+    .row1 input{
+        width: 180px;
+    }
+    .row2 input {
+        width: 180px;
+    }
+    .re{
+        width: 180px;
+
+    }
+    .ree{
+        width: 180px;
+    }
+    .row4 input{
+        width: 180px;
+    }
+}
+
+
+
+
+
+
